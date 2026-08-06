@@ -1,0 +1,78 @@
+<!--attributes
+1) it controls the behavior of the input field 
+2)placeholder text 
+3) it conveys information about the expected value 
+4) for and id 
+it is used to form the relationship between the label and the input field 
+    application
+
+
+-->
+    <h1>CREATE ACCOUNT </h1>
+   <form action="/submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="number">Number:</label>
+  <input type="number" id="number" name="number"><br><br>
+  <label for="slot">Date of Birth:</label>
+  <input type="datetime-local" id="slot" name="slot"><br><br>
+  <label for="country">Country:</label>
+  <select id="country" name="country">
+    <option value="usa">USA</option>
+    <option value="canada">Canada</option>
+    <option value="uk">UK</option>
+    <option value="australia">Australia</option>
+    <option value="india">India</option>
+    <option value="germany">Germany</option>
+    <option value="france">France</option>
+    <option value="japan">Japan</option>
+    <option value="china">China</option>
+  </select><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password"><br><br>
+  <label for="confirm password" id="confirm password" name="confirm password">Confirm Password:</label>
+  <input type="password" id="confirm password" name="confirm password"><br><br>
+<label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <html lang="en">
+</form>
+    <form action="">
+        <!-- Select Your TechStack
+        <br>
+        <input type="radio" name="skillset" id="" value="python">
+        <label for="">Python Full stack</label>
+        <br>
+        <input type="radio" name="skillset" value="Java">
+        <label for="">Java Full Stack</label>
+        <br>
+        <input type="radio" name="skillset" value="mern">
+        <label for="">Mern Stack</label>
+        <br> -->
+        Select Your Skills
+        <br>
+        <input type="checkbox" id="html" name="skill" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" id="css" name="skill" value="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" id="js" name="skill" value="js">
+        <label for="js">JS</label>
+        <br>
+        <input type="checkbox" required><label for="">I agree to the following terms and conditions</label><br>
+        <label for="">Choose Your Education</label>
+        <select name="education" id="">
+            <option value="btech">Btech</option>
+            <option value="degree">Degree</option>
+        </select><br>
+        <textarea name="" id="" cols="10" rows="10"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
